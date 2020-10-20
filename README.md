@@ -10,6 +10,6 @@ This tool is going to help you to copy files/objects between your local hard dri
 1. enter the ForgeID and ForgeSecret to the settings.json. You can get them here https://forge.autodesk.com/
 
 ## run
-1. `node index.js'
+1. `node index.js`
 1. choose between Download or Upload
 1. select bucket to download or upload. You can multiselect more buckets. Toggle is done by the space bar. Enter starts the operation
