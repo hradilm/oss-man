@@ -6,7 +6,7 @@ This tool is going to help you to copy files/objects between your local hard dri
 
 1. Clone repo
 1. `npm install`
-1. copy settings-template.json to settings.json
+1. copy settings_template.json to settings.json
 1. enter the ForgeID and ForgeSecret to the settings.json. You can get them here https://forge.autodesk.com/
 
 ## run
