@@ -70,8 +70,10 @@ async function main() {
 
             for (objectIndex in objects) {
                 const object = objects[objectIndex];
-                console.log(`Getting object ${object}`);
-                await oss.getObject(bucketKey, object, `${dataFolderName}/${bucketKey}/${object}`);
+                if (object.endsWith('/parameters.json')) {
+                    console.log(`Getting object ${object}`);
+                    await oss.getObject(bucketKey, object, `${dataFolderName}/${bucketKey}/${object}`);
+                }
             }
         }
     }
